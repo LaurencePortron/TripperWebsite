@@ -1,0 +1,82 @@
+.home-container {
+  margin-left: 40px;
+}
+
+.home-header {
+  font-family: Inter, sans-serif;
+  color: #b37650;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.home-paragraph {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #3b2b28;
+}
+
+.first-home-section h2 {
+  color: #3b2b28;
+  font-family: Inter, sans-serif;
+}
+
+.second-home-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.description-p {
+  text-align: center;
+  margin: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+}
+
+.home-title {
+  text-align: center;
+  color: #b37650;
+  font-family: Inter, sans-serif;
+}
+
+.home-section {
+  display: flex;
+  justify-content: center;
+}
+.home-description {
+  font-family: Inter, sans-serif;
+}
+.go-to-features-button {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px 16px 10px 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2e5e4e;
+  border-radius: 4px;
+  background-color: #2e5e4e;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.go-to-features-section {
+  display: flex;
+  justify-content: center;
+}
+
+.go-to-features-button a {
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+}

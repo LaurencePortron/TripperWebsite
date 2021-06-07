@@ -1,0 +1,139 @@
+.image-section-title {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  margin-top: 100px;
+  color: #b37650;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.about-tripper-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-tripper-description {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: Inter, sans-serif;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.tripper-images {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.tripper-images img {
+  margin: 10px;
+}
+
+.feature-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-section-header {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  color: #b37650;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.right-and-left-feature-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.right-and-left-feature-section img {
+  margin-right: 20px;
+}
+.left-feature-section {
+  margin: 10px;
+}
+
+.right-feature-section {
+  margin: 10px;
+}
+
+.vl {
+  border-left: 4px solid #b37650;
+  height: 100px;
+  margin: 10px;
+}
+
+.vl h3,
+.vl p {
+  margin-left: 10px;
+}
+
+.vl h3 {
+  margin-top: 50px;
+}
+
+.last-tripper-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+.context-title {
+  text-align: center;
+}
+
+.quote-section {
+  text-align: center;
+}
+
+.quote-section blockquote {
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #2e5e4e;
+}
+
+.image-section-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  font-family: Inter, sans-serif;
+  margin: 20px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.nav-video-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.nav-video-description h2 {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  color: #b37650;
+}
+
+.nav-video-description p {
+  font-family: Inter, sans-serif;
+  margin-top: 100px;
+  text-align: justify;
+  width: 50%;
+}
+
+.nav-video-description {
+  align-content: center;
+}

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import Home from './components/Home';
+import AboutTripper from './components/AboutTripper';
+import Contact from './components/Contact';
+import TripperFeatures from './components/TripperFeatures';
+import NavigationBar from './components/NavigationBar';
+import AboutMe from './components/AboutMe.js';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavigationBar />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/AboutTripper' component={AboutTripper} />
+        <Route exact path='/TripperFeatures' component={TripperFeatures} />
+        <Route exact path='/AboutMe' component={AboutMe} />
+        <Route exact path='/Contact' component={Contact} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
